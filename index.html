@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor de Moedas</h1>
+        <div>
+            <label for="amount">Valor:</label>
+            <input type="number" id="amount" placeholder="Digite o valor">
+        </div>
+        <div>
+            <label for="fromCurrency">De:</label>
+            <select id="fromCurrency">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="BRL">BRL</option>
+                <option value="BTC">BTC</option>
+                <option value="ETH">ETH</option>
+            </select>
+        </div>
+        <div>
+            <label for="toCurrency">Para:</label>
+            <select id="toCurrency">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="BRL">BRL</option>
+                <option value="BTC">BTC</option>
+                <option value="ETH">ETH</option>
+            </select>
+        </div>
+        <button id="convertBtn">Converter</button>
+        <div id="result"></div>
+
+        <h2>Data e Hora Atual</h2>
+        <div id="datetime"></div>
+        <a id="binomoLink" href="https://www.binomo.com/" target="_blank">Acesse o Binomo</a>
+
+        <div class="images">
+            <img src="https://www.pngarts.com/files/5/Neymar-Transparent-Image.png" alt="Neymar" class="player-image" id="neymarImage">
+            <img src="https://www.pngarts.com/files/5/Lionel-Messi-PNG-Image-Background.png" alt="Messi" class="player-image" id="messiImage">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
